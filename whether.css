@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: cursive;
+
+
+}
+BODY{
+    background-color: skyblue;
+}
+.container{
+    background-color: rgb(161, 160, 160);
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    box-shadow:10px 10px 20px rgba(0,0,0,0.6);
+    margin: 20px auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+
+form input[ type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+form input[ type="submit"]{
+    padding: 10px 20px;
+    background-color: rgb(246, 61, 61);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: none o.2s ease-in;
+}
+form input[ type="submit"]:hover{
+    background-color: brown;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+} 
+.temp {
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 20px;
+}
+.desc{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.details>div{
+    font-size: 18px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    min-height: 40px;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+}
