@@ -1,4 +1,6 @@
 Weather App
+
+
 This is a simple Weather App built with HTML, CSS, and JavaScript. It helps you find the temperature, humidity, and wind speed of any city using a weather API.
 
 What it does:
@@ -14,7 +16,8 @@ Connects to a real weather API
 
 Updates info instantly when you search
 
-🛠️ Made with:
+
+ Made with:
 
 
 
